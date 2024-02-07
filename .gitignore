@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# List with members pullrequest to submit homework
+pullrequests-list.txt
