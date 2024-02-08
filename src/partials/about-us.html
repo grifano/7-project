@@ -15,11 +15,30 @@
           the high seas.
         </p>
       </div>
-      <img
-        srcset="./img/section-about-us/yacht@2x.jpg"
-        src="./img/section-about-us/yacht.jpg"
-        alt="Yacht photo"
-      />
+      <picture>
+        <source
+          srcset="
+            ./img/section-about-us/yacht-mobile.jpg    1x,
+            ./img/section-about-us/yacht-mobile@2x.jpg 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <source
+          srcset="
+            ./img/section-about-us/yacht-tablet.jpg    1x,
+            ./img/section-about-us/yacht-tablet@2x.jpg 2x
+          "
+          media="(min-width: 768px) and (max-width: 1157px)"
+        />
+        <source
+          srcset="
+            ./img/section-about-us/yacht.jpg    1x,
+            ./img/section-about-us/yacht@2x.jpg 2x
+          "
+          media="(min-width: 1158px)"
+        />
+        <img src="./img/section-about-us/yacht.jpg" alt="yacht-photo" />
+      </picture>
     </div>
   </div>
 </section>
