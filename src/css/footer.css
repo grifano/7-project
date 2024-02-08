@@ -8,20 +8,22 @@
     display: flex;
     margin: 0 auto;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-logo {
-    width: 52px;
-    height: 18px;
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 14px;
+    letter-spacing: -0.03em;
+    color: #fbfbfb;
 }
 
-.footer-container-soc {
+.footer-container-top {
     display: flex;
-    margin-bottom: 80px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .footer-list {
@@ -47,23 +49,27 @@
     align-items: center;
 }
 
+.footer-link:hover,
+.footer-link:focus {
+    background: #fbfbfb;
+    color: #1b414b;
+}
+
 .footer-soc-list {
     display: flex;
     gap: 8px;
-    justify-content: center;
-    align-items: center;
     height: 24px;
-    margin-bottom: 40px;
-
+    padding-top: 80px;
+    padding-bottom: 40px;
 }
 
 .footer-soc-svg {
     fill: #fbfbfb;
 }
 
-.footer-container-text {
-    display: flex;
-    justify-content: center;
+.footer-soc-svg:hover,
+.footer-soc-svg:focus {
+    fill: rgba(251, 251, 251, 0.8);
 }
 
 .footer-text {
@@ -81,8 +87,6 @@
     margin-top: 82px;
     display: flex;
     gap: 20px;
-    justify-content: center;
-    align-items: center;
 }
 
 .footer-text-yacht {
