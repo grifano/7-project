@@ -1,1 +1,40 @@
-
+.container {
+}
+.about-us-top {
+  border-radius: 24px;
+  background-color: #fbfbfb;
+  width: 1340px;
+  height: 470px;
+}
+.about-header {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #1b414b;
+}
+.about-us-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.about-us-bold-text {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #1b414b;
+}
+.about-us-text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 115%;
+  letter-spacing: -0.02em;
+  color: #040306;
+  opacity: 0.4;
+}
+.about-us-picture {
+  width: 1340px;
+  height: 470px;
+}
