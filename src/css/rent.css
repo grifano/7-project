@@ -1,1 +1,155 @@
+.section {
+}
+.section-rent {
+}
+.container {
+}
+.title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 0.04;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  text-align: start;
+  margin-bottom: 40px;
+}
+.section-rent-img {
+  border-radius: 24px;
+  width: 335px;
+}
+.form-rent-container {
+}
+.form-rent {
+}
+.forma-field {
+  margin-bottom: 18px;
+}
+.label-forma {
+}
+.forma-input-wpap {
+}
 
+.rent-input {
+  width: 100%;
+  height: 42px;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 12px;
+  padding-left: 18px;
+  background-color: transparent;
+}
+.rent-input:hover {
+  color: #fbfbfb;
+}
+.forma-text {
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 12px;
+  padding-left: 18px;
+  width: 100%;
+
+  height: 108px;
+  background-color: transparent;
+}
+.forma-text::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 0.09;
+  color: rgba(251, 251, 251, 0.4);
+}
+.rent-input::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 0.9;
+  color: rgba(251, 251, 251, 0.4);
+}
+
+.forma-field-comment {
+  margin-bottom: 40px;
+}
+.button-rent {
+  border-radius: 15px;
+  padding: 14px 44px;
+  min-width: 122px;
+  height: 46px;
+  background-color: #1b414b;
+  text-align: center;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.9;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  margin-bottom: 80px;
+}
+.button-rent:hover {
+  background-color: #fbfbfb;
+  color: #1b414b;
+}
+/*нужен ли здесь padding
+.form-rent-container {
+  padding-right: inherit;
+}*/
+
+@media screen and (min-width: 768px) {
+  .form-rent-container {
+    width: 473px;
+    margin: 0 auto;
+  }
+  .form-rent-container {
+  }
+  .title {
+    text-align: left;
+    margin-bottom: 50px;
+    font-size: 48px;
+    line-height: 1;
+  }
+  .rent-input {
+    height: 54px;
+  }
+  .rent-input::placeholder {
+    font-size: 14px;
+  }
+  .button-rent {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    min-width: 194px;
+    height: 56px;
+    font-size: 18px;
+    line-height: 0.06;
+  }
+  .section-rent-img {
+    width: 784px;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .section-rent-img {
+    width: 658px;
+  }
+  .form-rent-container {
+    width: 472px;
+  }
+  .button-rent {
+    margin-bottom: 0;
+    margin-top: 50px;
+  }
+  .title {
+    text-align: left;
+    margin-bottom: 50px;
+    font-size: 48px;
+    line-height: 1;
+  }
+  .button-rent {
+    margin-top: 50px;
+    min-width: 194px;
+    height: 56px;
+    font-size: 18px;
+    line-height: 0.06;
+  }
+  .section-desktop {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+  }
+}
