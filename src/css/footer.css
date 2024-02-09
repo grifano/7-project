@@ -53,6 +53,7 @@
     color: #fbfbfb;
     justify-content: center;
     align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-link:hover,
@@ -100,8 +101,85 @@
         sans-serif;
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: center;
     color: rgba(251, 251, 251, 0.4);
+}
+
+@media screen and (min-width: 768px) {
+    .footer-wraper {
+        padding-top: 50px;
+        max-width: 768px;
+        display: block;
+    }
+
+    .footer-container-top {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin-bottom: 96px;
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+
+    .footer-soc-list {
+        padding: 0;
+    }
+
+    .footer-logo {
+        font-size: 20px;
+        width: 70px;
+        height: 24px;
+    }
+
+    .footer-list {
+        padding-left: 0;
+    }
+
+    .footer-link {
+        width: 91px;
+    }
+
+    .footer-text {
+        font-size: 32px;
+        width: 640px;
+        margin: 0 auto;
+    }
+
+    .footer-container-privacy {
+        margin-top: 99px;
+        gap: 32px;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+    .footer-wraper {
+        max-width: 1280px;
+    }
+
+    .footer-container-top {
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+
+    .footer-text {
+        width: 693px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .footer-wraper {
+        max-width: 1440px;
+    }
+
+    .footer-logo {
+        width: 74px;
+    }
+
+    .footer-text {
+        width: 699px;
+    }
 }
