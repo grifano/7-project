@@ -13,6 +13,7 @@
 
 .advantages-flex-con {
     display: flex;
+    flex-direction: column;
 }
 
 .container {
