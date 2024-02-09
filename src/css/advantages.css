@@ -30,6 +30,7 @@
 }
 
 .advantages-list {
+    display: flex;
     max-width: 295px;
     height: 80px;
 }
