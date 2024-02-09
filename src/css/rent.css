@@ -90,10 +90,6 @@
   background-color: #fbfbfb;
   color: #1b414b;
 }
-/*нужен ли здесь padding
-.form-rent-container {
-  padding-right: inherit;
-}*/
 
 @media screen and (min-width: 768px) {
   .container {
