@@ -28,11 +28,22 @@
 }
 
 .advantages-number {
-
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    color: #fbfbfb;
 }
 
 .advantages-text {
-
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    opacity: 0.8;
 }
 
 .advantages-flex {
