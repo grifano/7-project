@@ -1,5 +1,4 @@
 .our-yachts-title {
-    font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 48px;
     line-height: 1;
@@ -19,7 +18,6 @@
 }
 .our-yachts-item {
     width: 377px;
-
     background-color: #fbfbfb;
     border-radius: 24px;
     padding: 16px 16px 32px 16px;
@@ -30,19 +28,18 @@
     width: 100%;
     margin-bottom: 32px;
 }
-.features-yachts {
+.our-yachts-features {
     display: flex;
 justify-content: space-between;
 width: 313px;
 margin: 0 auto;
 }
 
-.features-yachts-title {
+.our-yachts-features-title {
     max-width: 177px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    font-family: "Inter", sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.2;
@@ -50,9 +47,7 @@ letter-spacing: -0.04em;
 text-transform: uppercase;
 color: #1b414b;
 }
-.features-yachts-p {
-font-family: "Inter", sans-serif;
-font-weight: 400;
+.our-yachts-features-p {
 font-size: 13px;
 line-height: 1.18;
 letter-spacing: 0.03em;
@@ -61,14 +56,14 @@ color: #040306;
 opacity: 0.4;
 margin-bottom: 16px;
 }
-.yacht-line-horozontal {
+.our-yachts-line-horozontal {
 width: 313px;
 background-color: rgba(4, 3, 6, 0.1);
 height: 1px;
 margin: 16px auto;
 }
 
-.price-yacht-item {
+.our-yachts-price-item {
     display: flex;
     justify-content: space-between;
     width: 313px;
@@ -77,8 +72,7 @@ margin: 16px auto;
     align-items: center;
     gap: 6px;
 }
-.options-yacht-title {
-font-weight: 400;
+.our-yachts-options-title {
 font-size: 14px;
 line-height: 1.18;
 letter-spacing: 0.03em;
@@ -86,17 +80,16 @@ text-transform: uppercase;
 color: #040306;
 opacity: 0.4;
 }
-.options-p-yacht {
-font-weight: 400;
+.our-yachts-options-p {
 font-size: 14px;
 line-height: 1.18;
 letter-spacing: 0.03em;
 color: #040306;
 }
-.price-yacht-list .price-yacht-item:not(:first-child) {
+.our-yachts-price-list .our-yachts-price-item:not(:first-child) {
     margin-top: 6px;
 }
-.price-yacht-item p {
+.our-yachts-options-p {
     width: 97px;
     text-align: left;
     overflow: hidden;
