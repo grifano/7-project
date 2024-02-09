@@ -23,12 +23,10 @@
 }
 .form-rent {
 }
-.forma-field {
+.rent-input {
   margin-bottom: 18px;
 }
-/*.forma-field:not(:last-child) {
-  margin-bottom: 18px;
-}*/
+
 .label-forma {
 }
 
@@ -67,9 +65,6 @@
   color: rgba(251, 251, 251, 0.4);
 }
 
-.forma-field-comment {
-  margin-bottom: 40px;
-}
 .button-rent {
   border-radius: 15px;
   padding: 14px 44px;
