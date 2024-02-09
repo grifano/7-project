@@ -1,0 +1,104 @@
+.our-yachts-title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    margin: 0 auto;
+    color: #fbfbfb;
+    width: 714px;
+    text-align: center;
+    margin-bottom: 75px;
+}
+.our-yachts-list {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    
+    
+}
+.our-yachts-item {
+    width: 377px;
+    background-color: #fbfbfb;
+    border-radius: 24px;
+    padding: 16px 16px 32px 16px;
+}
+.our-yachts-item img {
+    border-radius: 24px;
+    height: auto;
+    width: 100%;
+    margin-bottom: 32px;
+}
+.our-yachts-features {
+    display: flex;
+justify-content: space-between;
+width: 313px;
+margin: 0 auto;
+}
+
+.our-yachts-features-title {
+    max-width: 177px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.2;
+letter-spacing: -0.04em;
+text-transform: uppercase;
+color: #1b414b;
+}
+.our-yachts-features-p {
+font-size: 13px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #040306;
+opacity: 0.4;
+margin-bottom: 16px;
+}
+.our-yachts-line-horozontal {
+width: 313px;
+background-color: rgba(4, 3, 6, 0.1);
+height: 1px;
+margin: 16px auto;
+}
+
+.our-yachts-price-item {
+    display: flex;
+    justify-content: space-between;
+    width: 313px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    gap: 6px;
+}
+.our-yachts-options-title {
+font-size: 14px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #040306;
+opacity: 0.4;
+}
+.our-yachts-options-p {
+font-size: 14px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+color: #040306;
+}
+.our-yachts-price-list .our-yachts-price-item:not(:first-child) {
+    margin-top: 6px;
+}
+.our-yachts-options-p {
+    width: 97px;
+    text-align: left;
+    overflow: hidden;
+}
+.is-secondary {
+    font-size: 18px;
+    padding: 16px 40px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
