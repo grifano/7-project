@@ -103,6 +103,9 @@
   .rent-input::placeholder {
     font-size: 14px;
   }
+  .rent-forma-text::placeholder {
+    font-size: 14px;
+  }
   .rent-button {
     margin-top: 50px;
 
