@@ -20,7 +20,7 @@
     
     <title>YachtJet</title>
     <script type="module" crossorigin src="/7-project/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/7-project/assets/index-7c960d99.css">
+    <link rel="stylesheet" href="/7-project/assets/index-8c62a2f5.css">
   </head>
   <body>
     <header class="header">
@@ -202,12 +202,12 @@
   <div class="container"></div>
 </section>
 
-      <section class="section section-rent">
-  <div class="container section-desktop">
-    <h2 class="title">Rent a yacht now</h2>
-    <div class="form-rent-container">
+      <section id="rent-yacht" class="section section-rent">
+  <div class="container rent-blok">
+    <div class="rent-form-container">
+      <h2 class="rent-title">Rent a yacht now</h2>
       <form class="form-rent">
-        <label for="user-name" class="label-forma">
+        <label for="user-name" class="rent-label-forma">
           <input
             type="text"
             name="user-name"
@@ -217,7 +217,7 @@
           />
         </label>
 
-        <label for="user-email" class="label-forma">
+        <label for="user-email" class="rent-label-forma">
           <input
             type="email"
             name="user-email"
@@ -227,7 +227,7 @@
           />
         </label>
 
-        <label for="user-phone" class="label-forma">
+        <label for="user-phone" class="rent-label-forma">
           <input
             type="tel"
             name="user-phone"
@@ -237,26 +237,26 @@
           />
         </label>
 
-        <label for="user-comment" class="label-forma">
+        <label for="user-comment" class="rent-label-forma">
           <textarea
             name="user-comment"
             placeholder="Comment"
             id="user-comment"
-            class="forma-text"
+            class="rent-forma-text"
           >
           </textarea>
         </label>
 
-        <button class="button-rent" type="submit">Send</button>
+        <button class="rent-button" type="submit">Send</button>
       </form>
     </div>
     <picture>
       <source
-        srcset="/7-project/assets/Rent-yacht-1x-699bebe9.webp 1x, /7-project/assets/Rent-yacht-2x-279fd883.webp 2x"
+        srcset="/7-project/assets/Rent-yacht-1x-25507dc0.webp 1x, /7-project/assets/Rent-yacht-2x-7eeafb7c.webp 2x"
         media="(min-width: 1280px)"
       />
       <source
-        srcset="/7-project/assets/Rent-yacht-1x-mob-19a15898.webp 1x, /7-project/assets/Rent-yacht-2x-mob-9fbcd6b9.webp 2x"
+        srcset="/7-project/assets/Rent-yacht-1x-mob-19a15898.webp 1x, /7-project/assets/Rent-yacht-2x-mob-2f8aa68c.webp 2x"
         media="(max-width: 767px)"
       />
       <source
@@ -264,7 +264,7 @@
         media="(min-width: 768px)"
       />
       <img
-        class="section-rent-img"
+        class="rent-img"
         src="/7-project/assets/Rent-yacht-1x-mob-19a15898.webp"
         alt="Rent yacht"
       />
