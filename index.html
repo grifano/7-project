@@ -20,7 +20,7 @@
     
     <title>YachtJet</title>
     <script type="module" crossorigin src="/7-project/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/7-project/assets/index-1712499e.css">
+    <link rel="stylesheet" href="/7-project/assets/index-3c1b4891.css">
   </head>
   <body>
     <header class="header">
@@ -203,86 +203,72 @@
 </section>
 
       <section class="section section-rent">
-  <div class="container">
+  <div class="container section-desktop">
     <h2 class="title">Rent a yacht now</h2>
+    <div class="form-rent-container">
+      <form class="form-rent">
+        <label for="user-name" class="label-forma">
+          <input
+            type="text"
+            name="user-name"
+            placeholder="Full Name"
+            id="user-name"
+            class="rent-input"
+          />
+        </label>
+
+        <label for="user-email" class="label-forma">
+          <input
+            type="email"
+            name="user-email"
+            placeholder="Email"
+            class="rent-input"
+            id="user-email"
+          />
+        </label>
+
+        <label for="user-phone" class="label-forma">
+          <input
+            type="tel"
+            name="user-phone"
+            placeholder="Phone number"
+            class="rent-input"
+            id="user-phone"
+          />
+        </label>
+
+        <label for="user-comment" class="label-forma">
+          <textarea
+            name="user-comment"
+            placeholder="Comment"
+            id="user-comment"
+            class="forma-text"
+          >
+          </textarea>
+        </label>
+
+        <button class="button-rent" type="submit">Send</button>
+      </form>
+    </div>
     <picture>
       <source
-        srcset="/7-project/assets/Rent-yacht-69e574ab.jpg 1x, /7-project/assets/Rent-yacht-2x-e34a98c3.jpg 2x"
+        srcset="/7-project/assets/Rent-yacht-1x-699bebe9.webp 1x, /7-project/assets/Rent-yacht-2x-279fd883.webp 2x"
         media="(min-width: 1280px)"
       />
       <source
-        srcset="/7-project/assets/Rent-yacht-1x-mob-3bbd6435.jpg 1x, /7-project/assets/Rent-yacht-2x-mob-f65004b6.jpg 2x"
+        srcset="/7-project/assets/Rent-yacht-1x-mob-19a15898.webp 1x, /7-project/assets/Rent-yacht-2x-mob-9fbcd6b9.webp 2x"
         media="(max-width: 767px)"
       />
       <source
-        srcset="/7-project/assets/Rent-yacht-tab-1x-0a942617.jpg 1x, /7-project/assets/Rent-yacht-tab-2x-898a245a.jpg 2x"
+        srcset="/7-project/assets/Rent-yacht-tab-1x-17096504.webp 1x, /7-project/assets/Rent-yacht-tab-2x-c6d0e73d.webp 2x"
         media="(min-width: 768px)"
       />
       <img
         class="section-rent-img"
-        src="/7-project/assets/Rent-yacht-69e574ab.jpg"
+        src="/7-project/assets/Rent-yacht-1x-mob-19a15898.webp"
         alt="Rent yacht"
-        width="784"
       />
     </picture>
-    <div class="form-rent-container">
-      <form class="form-rent">
-        <div class="forma-field">
-          <label for="user-name" class="label-forma"></label>
-          <div class="forma-input-wpap">
-            <input
-              type="text"
-              pattern="[A-Za-z]+"
-              name="user-name"
-              placeholder="Full Name"
-              id="user-name"
-              class="rent-input"
-            />
-          </div>
-        </div>
-        <div class="forma-field">
-          <label for="user-email" class="label-forma"></label>
-          <div class="forma-input-wpap">
-            <input
-              type="email"
-              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
-              name="user-email"
-              placeholder="Email"
-              class="rent-input"
-              id="user-email"
-            />
-          </div>
-        </div>
-        <div class="forma-field">
-          <label for="user-phone" class="label-forma"></label>
-          <div class="forma-input-wpap">
-            <input
-              type="tel"
-              pattern="\+380\d{9}"
-              name="user-phone"
-              placeholder="Phone number"
-              class="rent-input"
-              id="user-phone"
-            />
-          </div>
-        </div>
-        <div class="forma-field">
-          <label for="user-comment" class="label-forma"></label>
-          <div class="forma-input-wpap">
-            <!-- placeholder not visible -->
-            <textarea
-              name="user-comment"
-              placeholder="Comment"
-              id="user-comment"
-              class="forma-text"
-            >
-            </textarea>
-          </div>
-        </div>
-
-        <button type="submit">Send</button>
-      </form>
-    </div>
   </div>
 </section>
 
