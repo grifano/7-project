@@ -4,8 +4,7 @@
   display: block;
 }
 .about-us-top {
-  /* margin-top: 35px; */
-  /* transition: ; */
+  transform: translateY(-35px);
 
   border-radius: 24px;
   background-color: #fbfbfb;
