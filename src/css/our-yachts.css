@@ -1,5 +1,6 @@
 .section-our-yachts {
-    
+max-width: 1280px;
+margin: auto;   
 }
 .our-yachts-title {
     font-weight: 500;
@@ -24,10 +25,9 @@
 .our-yachts-list {
     display: flex;
     gap: 25px;
-    justify-content: center
+    justify-content: space-between;
 }
 .our-yachts-item {
-    /* width: 377px; */
     width: 336px;
     background-color: #fbfbfb;
     border-radius: 24px;
@@ -36,7 +36,6 @@
 .our-yachts-item img {
     border-radius: 24px;
     height: auto;
-    width: 100%;
     margin-bottom: 32px;
     width: 302px;
     margin-left: auto;
@@ -179,11 +178,18 @@ max-width: 714px;
         display: block;
     }
 .our-yachts-list {
+    justify-content: space-between;
+    display: flex;
     gap: 25px;
 }
+.our-yachts-item {
+    width: 377px;
+}
     .our-yachts-item img {
-        width: 345px;
+        width: 100%;
         height: auto;
+        margin-left: 0;
+        margin-right: 0;
     }
     .our-yachts-features {
         width: 313px;
