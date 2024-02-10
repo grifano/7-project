@@ -5,17 +5,17 @@
   text-align: center;
   color: #fbfbfb;
 
-  margin-bottom: 24px;
+  margin: 0 auto 24px;
 }
 .reviews-par {
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.16;
   letter-spacing: -0.02em;
   text-align: center;
   color: #fbfbfb;
 
   opacity: 0.4;
-  margin-bottom: 40px;
+  margin: 0 auto 40px;
 }
 
 .reviews-list {
@@ -62,7 +62,7 @@
     font-size: 48px;
   }
   .reviews-par {
-    padding: 0 100px;
+    max-width: 571px;
     font-size: 14px;
   }
   .reviews-list {
@@ -74,10 +74,7 @@
 }
 @media screen and (min-width: 1280px) {
   .reviews-title {
-    padding: 0 212px;
-  }
-  .reviews-par {
-    padding: 0 354px;
+    max-width: 854px;
   }
   .reviews-list {
     gap: 26px;
@@ -87,12 +84,6 @@
   }
 }
 @media screen and (min-width: 1440px) {
-  .reviews-title {
-    padding: 0 294px;
-  }
-  .reviews-par {
-    padding: 0 434px;
-  }
   .reviews-list {
     gap: 32px;
   }
