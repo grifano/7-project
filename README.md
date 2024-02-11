@@ -6,7 +6,7 @@
 - Team Lead: Serhii Orlenko
 - Scram Master: Vlad
 - Developers:
-  - Anastasia Radionova
+  - Anastasiia Velieva
   - Andrii Chuchak
   - Andrii Tychorenko
   - Anton Yashchenko
