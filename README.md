@@ -1,8 +1,6 @@
 ![](/src/img/seven-project.svg)
 
-### Ласкаво просимо ми команда розробників 7-Project
-
-## Team:
+### Hi 👋 we are 7-Project Team
 
 - Mentor: Daria Lyman
 - Team Lead: Serhii Orlenko
@@ -14,6 +12,6 @@
   - Anton Yashchenko
   - Oksana Fedorii
 
-## Project: YachtJet
+## Latest Project: YachtJet
 
 ![](/src/img/project-cover.webp)
