@@ -60,6 +60,7 @@
   letter-spacing: 0.04em;
   color: rgba(251, 251, 251, 0.4);
 }
+.rent-blok {
   margin-top: 40px;
 }
 @media screen and (min-width: 768px) {
@@ -140,7 +141,6 @@
   }
   .rent-blok {
     flex-direction: row-reverse;
-    gap: none;
   }
   .rent-input::placeholder,
   .rent-forma-text::placeholder {

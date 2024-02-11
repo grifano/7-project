@@ -39,6 +39,7 @@ body {
 }
 .button.is-submit {
   /* padding: 12px 44px; */
+  font-size: 18px;
   min-width: 124px;
   height: 46px;
 }
