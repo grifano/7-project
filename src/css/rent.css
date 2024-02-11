@@ -11,10 +11,11 @@
   border-radius: 24px;
   width: 100%;
 }
-.rent-form-container {
-  margin-bottom: 80px;
+.rent-blok {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
 }
-
 .rent-input {
   margin-bottom: 18px;
   width: 100%;
@@ -44,8 +45,9 @@
   background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.rent-input::placeholder,
 .rent-forma-text::placeholder {
-  font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -58,29 +60,21 @@
   letter-spacing: 0.04em;
   color: rgba(251, 251, 251, 0.4);
 }
-
-.is-submit {
   margin-top: 40px;
 }
-.is-submit:hover {
-  background-color: #fbfbfb;
-  color: #1b414b;
-}
-
 @media screen and (min-width: 768px) {
   .rent-form-container {
     width: 473px;
     margin: 0 auto;
-  }
-  .rent-form-container {
-    margin-bottom: 100px;
   }
   .rent-title {
     margin-bottom: 50px;
     font-size: 48px;
     line-height: 1;
   }
-
+  .rent-blok {
+    gap: 100px;
+  }
   .rent-input {
     height: 54px;
   }
@@ -138,30 +132,27 @@
   .rent-form-container {
     width: 472px;
   }
-
   .rent-title {
     text-align: left;
     margin-bottom: 50px;
     font-size: 48px;
     line-height: 1;
   }
-  .is-submit {
-    font-size: 18px;
-  }
   .rent-blok {
-    display: flex;
     flex-direction: row-reverse;
-    gap: 50px;
+    gap: none;
   }
-  .rent-input::placeholder {
-    font-size: 14px;
-    line-height: 1.2;
-  }
+  .rent-input::placeholder,
   .rent-forma-text::placeholder {
     font-size: 14px;
     line-height: 1.2;
   }
   .rent-forma-text {
     height: 116px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .rent-img {
+    width: 768px;
   }
 }
