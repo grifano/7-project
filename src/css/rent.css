@@ -29,6 +29,7 @@
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 12px;
   padding-left: 18px;
+
   background-color: transparent;
 }
 .rent-input:hover {
@@ -79,9 +80,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 744px;
-  }
   .rent-form-container {
     width: 473px;
     margin: 0 auto;
@@ -119,9 +117,6 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1220px;
-  }
   .rent-img {
     width: 658px;
   }
