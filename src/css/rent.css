@@ -64,9 +64,7 @@
   letter-spacing: 0.04em;
   color: rgba(251, 251, 251, 0.4);
 }
-.rent-blok {
-  margin-top: 40px;
-}
+
 @media screen and (min-width: 768px) {
   .rent-form-container {
     width: 473px;
