@@ -17,10 +17,14 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     
     <title>YachtJet</title>
     <script type="module" crossorigin src="/7-project/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/7-project/assets/index-981b7f81.css">
+    <link rel="stylesheet" href="/7-project/assets/index-06980add.css">
   </head>
   <body>
     <header class="header">
@@ -94,13 +98,22 @@
       <nav>
         <ul class="modal-menu-list-nav">
           <li class="modal-menu-item-nav current">
-            <a class="modal-menu-link" href="#about-us">About</a>
+            <a class="modal-menu-link" href="#section-about" data-menu-close
+              >About</a
+            >
           </li>
           <li class="modal-menu-item-nav">
-            <a class="modal-menu-link" href="#our-yachts-section">Yachts</a>
+            <a
+              class="modal-menu-link"
+              href="#section-our-yachts"
+              data-menu-close
+              >Yachts</a
+            >
           </li>
           <li class="modal-menu-item-nav">
-            <a class="modal-menu-link" href="#reviews">Reviews</a>
+            <a class="modal-menu-link" href="#section-reviews" data-menu-close
+              >Reviews</a
+            >
           </li>
         </ul>
       </nav>
@@ -144,16 +157,19 @@
 </header>
 
     <main>
-      <section class="section-hero ">
-  <div class="container hero-container">
-        <h1 class="hero-main-text">Explore the High Seas with Our Luxury Yacht Rentals</h1>
-        <p class="hero-small-text">Experience the freedom and luxury of yachting on the open seas. 
-          Choose from our top-of-the-line yachts and embark on an unforgettable 
-          journey surrounded by breathtaking views and state-of-the-art amenities.
-        </p>
-        <a href="#rent" class="button">Yacht rental</a>
+      <section class="section-hero">
+  <div class="container hero-container animate__animated animate__fadeIn">
+    <h1 class="hero-main-text">
+      Explore the High Seas with Our Luxury Yacht Rentals
+    </h1>
+    <p class="hero-small-text">
+      Experience the freedom and luxury of yachting on the open seas. Choose
+      from our top-of-the-line yachts and embark on an unforgettable journey
+      surrounded by breathtaking views and state-of-the-art amenities.
+    </p>
+    <a href="#section-rent" class="button">Yacht rental</a>
   </div>
-</section> 
+</section>
 
       <section class="section-about-us" id="section-about">
   <div class="container">
@@ -328,7 +344,7 @@
       </li>
     </ul>
     <div class="our-yacht-button-wrap">
-      <a href="#rent-yacht" class="button is-secondary">Yacht rental</a>
+      <a href="#section-rent" class="button is-secondary">Yacht rental</a>
     </div>
   </div>
 </section>
@@ -378,7 +394,7 @@
     </picture>
   </div>
 </section>
-      <section id="rent-yacht" class="section section-rent">
+      <section id="section-rent" class="section section-rent">
   <div class="container rent-blok">
     <div class="rent-form-container">
       <h2 class="rent-title">Rent a yacht now</h2>
