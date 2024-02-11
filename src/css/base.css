@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: #0e1823;
   font-family: 'Inter', sans-serif;
@@ -7,6 +10,7 @@ body {
 .section {
   padding-top: 40px;
   padding-bottom: 40px;
+  scroll-margin-top: 60px;
 }
 @media screen and (min-width: 768px) {
   .section {
