@@ -20,7 +20,7 @@
     
     <title>YachtJet</title>
     <script type="module" crossorigin src="/7-project/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/7-project/assets/index-82a95f17.css">
+    <link rel="stylesheet" href="/7-project/assets/index-981b7f81.css">
   </head>
   <body>
     <header class="header">
@@ -29,9 +29,11 @@
       <a class="header-logo" href="./index.html">yachtjet</a>
       <nav>
         <ul class="nav-list">
-          <li><a href="#about-us" class="nav-link is-current">About</a></li>
-          <li><a href="#our-yachts" class="nav-link">Yachts</a></li>
-          <li><a href="#reviews" class="nav-link">Reviews</a></li>
+          <li>
+            <a href="#section-about" class="nav-link is-current">About</a>
+          </li>
+          <li><a href="#section-our-yachts" class="nav-link">Yachts</a></li>
+          <li><a href="#section-reviews" class="nav-link">Reviews</a></li>
         </ul>
       </nav>
       <ul class="header-soc-list">
@@ -40,6 +42,7 @@
             href="https://www.instagram.com/goitclub/"
             target="_blank"
             class="header-soc-icon"
+            rel="noopener noreferrer"
           >
             <svg width="24" height="24" class="header-soc-svg">
               <use href="/7-project/assets/icons-3fc0a084.svg#icon-instagram"></use>
@@ -51,6 +54,7 @@
             href="https://www.youtube.com/c/GoIT"
             target="_blank"
             class="header-soc-icon"
+            rel="noopener noreferrer"
           >
             <svg width="24" height="24" class="header-soc-svg">
               <use href="/7-project/assets/icons-3fc0a084.svg#icon-youtube"></use>
@@ -62,6 +66,7 @@
             href="https://www.facebook.com/goITclub/ "
             target="_blank"
             class="header-soc-icon"
+            rel="noopener noreferrer"
           >
             <svg width="24" height="24" class="header-soc-svg">
               <use href="/7-project/assets/icons-3fc0a084.svg#icon-facebook"></use>
@@ -150,7 +155,7 @@
   </div>
 </section> 
 
-      <section class="section-about-us">
+      <section class="section-about-us" id="section-about">
   <div class="container">
     <div class="about-us-top">
       <div class="about-us-content">
@@ -190,7 +195,7 @@
   </div>
 </section>
 
-      <section id="our-yachts-section" class="section section-our-yachts">
+      <section id="section-our-yachts" class="section section-our-yachts">
   <div class="container">
     <h2 class="our-yachts-title">
       Choose your dream yacht and sail away into the sunset
@@ -450,7 +455,7 @@
   </div>
 </section>
 
-      <section class="section section-reviews">
+      <section id="section-reviews" class="section section-reviews">
   <div class="container">
     <h2 class="reviews-title">
       YachtJet take pride in providing the best possible service and experience
@@ -521,28 +526,43 @@
       <a class="footer-logo" href="./index.html">yachtjet</a>
       <nav>
         <ul class="footer-list">
-          <li><a href="#about-us" class="footer-link">About</a></li>
-          <li><a href="#our-yachts" class="footer-link">Yachts</a></li>
-          <li><a href="#reviews" class="footer-link">Reviews</a></li>
+          <li><a href="#section-about" class="footer-link">About</a></li>
+          <li><a href="#section-our-yachts" class="footer-link">Yachts</a></li>
+          <li><a href="#section-reviews" class="footer-link">Reviews</a></li>
         </ul>
       </nav>
       <ul class="footer-soc-list">
         <li class="footer-soc-link">
-          <a href="https://www.instagram.com/goitclub/" target="_blank" class="footer-soc-icon">
+          <a
+            href="https://www.instagram.com/goitclub/"
+            target="_blank"
+            class="footer-soc-icon"
+            rel="noopener noreferrer"
+          >
             <svg width="24" height="24" class="footer-soc-svg">
               <use href="/7-project/assets/icons-3fc0a084.svg#icon-instagram"></use>
             </svg>
           </a>
         </li>
         <li class="footer-soc-link">
-          <a href="https://www.youtube.com/c/GoIT" target="_blank" class="footer-soc-icon">
+          <a
+            href="https://www.youtube.com/c/GoIT"
+            target="_blank"
+            class="footer-soc-icon"
+            rel="noopener noreferrer"
+          >
             <svg width="24" height="24" class="footer-soc-svg">
               <use href="/7-project/assets/icons-3fc0a084.svg#icon-youtube"></use>
             </svg>
           </a>
         </li>
         <li class="footer-soc-link">
-          <a href="https://www.facebook.com/goITclub/ " target="_blank" class="footer-soc-icon">
+          <a
+            href="https://www.facebook.com/goITclub/ "
+            target="_blank"
+            class="footer-soc-icon"
+            rel="noopener noreferrer"
+          >
             <svg width="24" height="24" class="footer-soc-svg">
               <use href="/7-project/assets/icons-3fc0a084.svg#icon-facebook"></use>
             </svg>
@@ -550,14 +570,17 @@
         </li>
       </ul>
     </div>
-    <p class="footer-text">No matter which yacht you choose, our experienced crew will ensure that your journey is
-      smooth and enjoyable.</p>
+    <p class="footer-text">
+      No matter which yacht you choose, our experienced crew will ensure that
+      your journey is smooth and enjoyable.
+    </p>
     <div class="footer-container-privacy">
       <p class="footer-text-yacht">2023. Yacht Adventures</p>
       <a href="" class="footer-text-yacht">Privacy Police</a>
     </div>
   </div>
 </footer>
+
 
     
   </body>
