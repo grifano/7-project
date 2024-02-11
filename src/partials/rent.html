@@ -1,3 +1,88 @@
-<section class="section section-rent">
-  <div class="container"></div>
+<section id="rent-yacht" class="section section-rent">
+  <div class="container rent-blok">
+    <div class="rent-form-container">
+      <h2 class="rent-title">Rent a yacht now</h2>
+      <form class="rent-form">
+        <label for="user-name" class="rent-label-forma">
+          <input
+            type="text"
+            name="user-name"
+            placeholder="Full Name"
+            id="user-name"
+            class="rent-input"
+            style="color: #fbfbfb"
+          />
+        </label>
+
+        <label for="user-email" class="rent-label-forma">
+          <input
+            type="email"
+            name="user-email"
+            placeholder="Email"
+            class="rent-input"
+            id="user-email"
+            style="color: #fbfbfb"
+          />
+        </label>
+
+        <label for="user-phone" class="rent-label-forma">
+          <input
+            type="tel"
+            name="user-phone"
+            placeholder="Phone number"
+            class="rent-input"
+            id="user-phone"
+            style="color: #fbfbfb"
+          />
+        </label>
+
+        <label for="user-comment" class="rent-label-forma">
+          <textarea
+            name="user-comment"
+            id="user-comment"
+            placeholder="Comment"
+            style="color: #fbfbfb"
+            class="rent-forma-text"
+          ></textarea>
+        </label>
+
+        <button class="button is-submit" type="submit">Send</button>
+      </form>
+    </div>
+    <picture>
+      <source
+        srcset="
+          ./img/Rent-yacht/Rent-yacht-1x.webp 1x,
+          ./img/Rent-yacht/Rent-yacht-2x.webp 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          ./img/Rent-yacht/Rent-yacht-1x-mob.webp 1x,
+          ./img/Rent-yacht/Rent-yacht-2x-mob.webp 2x
+        "
+        media="(max-width: 767px)"
+      />
+      <source
+        srcset="
+          ./img/Rent-yacht/Rent-yacht-1x-desktop.webp 1x,
+          ./img/Rent-yacht/Rent-yacht-2x-desktop.webp 2x
+        "
+        media="(min-width: 1440px)"
+      />
+      <source
+        srcset="
+          ./img/Rent-yacht/Rent-yacht-tab-1x.webp 1x,
+          ./img/Rent-yacht/Rent-yacht-tab-2x.webp 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <img
+        class="rent-img"
+        src="./img/Rent-yacht/Rent-yacht-1x-mob.webp"
+        alt="Rent yacht"
+      />
+    </picture>
+  </div>
 </section>
