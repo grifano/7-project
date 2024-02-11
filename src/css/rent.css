@@ -11,10 +11,11 @@
   border-radius: 24px;
   width: 100%;
 }
-.rent-form-container {
-  margin-bottom: 80px;
+.rent-blok {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
 }
-
 .rent-input {
   margin-bottom: 18px;
 }
@@ -29,7 +30,6 @@
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 12px;
   padding-left: 18px;
-
   background-color: transparent;
 }
 .rent-input:hover {
@@ -42,57 +42,32 @@
   padding-left: 18px;
   padding-top: 18px;
   width: 100%;
-
   height: 108px;
   background-color: transparent;
 }
-.rent-forma-text::placeholder {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 0.09;
-  color: rgba(251, 251, 251, 0.4);
-}
-.rent-input::placeholder {
-  font-size: 12px;
-  line-height: 0.9;
-  color: rgba(251, 251, 251, 0.4);
-}
 
-.rent-button {
-  border-radius: 15px;
-  padding: 14px 44px;
-  min-width: 122px;
-  height: 46px;
-  background-color: #1b414b;
-  text-align: center;
-  border: none;
-  font-family: 'Inter', sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 0.9;
-  letter-spacing: -0.02em;
-  color: #fbfbfb;
+.rent-input::placeholder,
+.rent-forma-text::placeholder {
+  font-size: 12px;
+  line-height: 1.3;
+  color: rgba(251, 251, 251, 0.4);
+}
+.rent-form .button {
   margin-top: 40px;
 }
-.rent-button:hover {
-  background-color: #fbfbfb;
-  color: #1b414b;
-}
-
 @media screen and (min-width: 768px) {
   .rent-form-container {
     width: 473px;
     margin: 0 auto;
-  }
-  .rent-form-container {
-    margin-bottom: 100px;
   }
   .rent-title {
     margin-bottom: 50px;
     font-size: 48px;
     line-height: 1;
   }
-
+  .rent-blok {
+    gap: 100px;
+  }
   .rent-input {
     height: 54px;
   }
@@ -120,32 +95,26 @@
   .rent-img {
     width: 658px;
   }
-  .rent-form-container {
-    width: 472px;
-  }
-
   .rent-title {
     text-align: left;
     margin-bottom: 50px;
     font-size: 48px;
     line-height: 1;
   }
-  .rent-button {
-    margin-top: 50px;
-    min-width: 194px;
-    height: 56px;
-    font-size: 18px;
-    line-height: 1.1;
-  }
   .rent-blok {
-    display: flex;
     flex-direction: row-reverse;
-    gap: 50px;
+    gap: none;
   }
+  .rent-input::placeholder,
   .rent-forma-text::placeholder {
     font-size: 14px;
   }
   .rent-forma-text {
     height: 116px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .rent-img {
+    width: 768px;
   }
 }
