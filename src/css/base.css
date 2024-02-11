@@ -49,6 +49,8 @@ body {
     height: 52px;
   }
   .button.is-secondary {
+    font-size: 18px;
+    line-height: 1.1;
     min-width: 181px;
     height: 52px;
   }
