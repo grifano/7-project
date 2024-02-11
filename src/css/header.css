@@ -42,6 +42,8 @@
   border: none;
 }
 
+
+
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -96,11 +98,12 @@
 
   .header-soc-list {
     display: flex;
+    gap: 8px;
   }
 
-  .header-soc-list {
-    display: flex;
-    gap: 8px;
+  .header-soc-link {
+    width: 24px;
+    height: 24px;
   }
 
   .header-soc-svg {
