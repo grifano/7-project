@@ -1,6 +1,83 @@
+/* ******modal menu******* */
+
+.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+.modal-menu-window {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    background-color: #0e1823;
+    display: flex;
+    flex-direction: column;
+    gap: 215px;
+    justify-content: space-between;
+}
+.modal-menu-header {
+    border: 1px solid #fbfbfb;
+border-radius: 8px;
+background-color: #fbfbfb;
+padding: 12px 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 335px;
+}
+.modal-menu-logo {
+font-weight: 500;
+letter-spacing: -0.03em;
+color: #1b414b;
+}
+.modal-menu-list-nav {
+    margin-top: 201px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.modal-menu-item-nav {
+    width: 91px;
+    height: 40px;
+    border-radius: 8px;
+    background: rgba(27, 65, 75, 0.5);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.modal-menu-link {
+    font-size: 9px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fbfbfb;
+
+}
+.modal-menu-item-nav.current {
+    background: #1b414b;
+}
+.modal-menu-social-list {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+   margin-top: auto;
+}
+.modal-menu-social-svg {
+    fill: #fbfbfb;
+}
+
+
 .section-our-yachts {
 max-width: 1280px;
-margin: auto;   
+margin: 0 auto;   
 }
 .our-yachts-title {
     font-weight: 500;
@@ -132,6 +209,37 @@ height: 46px;
     width: 100%;   
     justify-content: space-between;
     display: flex;
+    }
+    .modal-menu-window {
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        background-color: #0e1823;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 215px;
+        overflow: auto;
+        
+        padding-top: 16px;
+        padding-bottom: 40px;
+    
+    }
+    .modal-menu-header {
+        padding-top: 16px;
+        border: 1px solid #fbfbfb;
+    border-radius: 8px;
+    background-color: #fbfbfb;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 201px;
+    width: 335px;
+    margin: 0 auto;
     }
     
     .our-yachts-item {
