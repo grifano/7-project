@@ -17,6 +17,7 @@
   justify-content: space-between;
   padding-right: 20px;
   padding-left: 20px;
+  margin: 0 auto;
 }
 
 .header-logo {
@@ -42,10 +43,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .is-header {
-    padding: 0 32px;
-  }
-
   .header {
     padding-top: 32px;
   }
@@ -121,10 +118,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .is-header {
-    padding: 0 100px;
-  }
-
   .header-container {
     padding-left: 30px;
     padding-right: 30px;
@@ -132,14 +125,9 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .is-header {
-    padding: 0 100px;
-  }
-
   .header-container {
     width: 1180px;
     padding-left: 30px;
     padding-right: 30px;
   }
-
 }
