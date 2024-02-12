@@ -8,7 +8,7 @@
 - Developers:
   - Anastasiia Velieva
   - Andrii Chuchak
-  - Andrii Tychorenko
+  - Andrii Thorenko
   - Anton Yashchenko
   - Oksana Fedorii
 
