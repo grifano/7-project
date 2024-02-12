@@ -19,7 +19,6 @@
   margin-top: 40px;
 }
 .rent-input {
-  margin-bottom: 18px;
   color: #fbfbfb;
   width: 100%;
   height: 42px;
@@ -32,6 +31,9 @@
 
 .rent-label-forma {
   display: flex;
+}
+.rent-label-forma {
+  margin-bottom: 18px;
 }
 
 .rent-input:focus,
