@@ -19,30 +19,41 @@
           </p>
         </div>
       </div>
-      <picture class="about-us-img">
-        <source
-          srcset="
-            ./img/section-about-us/yacht-mobile.webp    1x,
-            ./img/section-about-us/yacht-mobile@2x.webp 2x
-          "
-          media="(max-width: 767px)"
-        />
-        <source
-          srcset="
-            ./img/section-about-us/yacht-tablet.webp    1x,
-            ./img/section-about-us/yacht-tablet@2x.webp 2x
-          "
-          media="(min-width: 768px) and (max-width: 1280px)"
-        />
-        <source
-          srcset="
-            ./img/section-about-us/yacht.webp    1x,
-            ./img/section-about-us/yacht@2x.webp 2x
-          "
-          media="(min-width: 1281px)"
-        />
-        <img src="./img/section-about-us/yacht-mobile.webp" alt="yacht-photo" />
-      </picture>
     </div>
+    <picture>
+      <source
+        srcset="
+          ./img/section-about-us/about-mobile.webp    1x,
+          ./img/section-about-us/about-mobile@2x.webp 2x
+        "
+        media="(max-width: 768px)"
+      />
+      <source
+        srcset="
+          ./img/section-about-us/about-tablet.webp    1x,
+          ./img/section-about-us/about-tablet@2x.webp 2x
+        "
+        media="(min-width: 768px) and (max-width: 1280px)"
+      />
+      <source
+        srcset="
+          ./img/section-about-us/about-desktop.webp    1x,
+          ./img/section-about-us/about-desktop@2x.webp 2x
+        "
+        media="(min-width: 1288px) and (max-width: 1440px)"
+      />
+      <source
+        srcset="
+          ./img/section-about-us/about-big.webp    1x,
+          ./img/section-about-us/about-big@2x.webp 2x
+        "
+        media="(min-width: 1440px)"
+      />
+      <img
+        class="about-us-img"
+        src="./img/section-about-us/about-mobile.webp"
+        alt="yacht-photo"
+      />
+    </picture>
   </div>
 </section>
