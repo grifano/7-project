@@ -1,14 +1,16 @@
 (() => {
   const refs = {
     openMenuBtn: document.querySelectorAll('[data-menu-open]'),
-    closeMenuBtn: document.querySelector('[data-menu-close]'),
+    closeMenuBtn: document.querySelectorAll('[data-menu-close]'),
     menu: document.querySelector('[data-menu]'),
   };
 
   refs.openMenuBtn.forEach(element => {
     element.addEventListener('click', toggleMenu);
   });
-  refs.closeMenuBtn.addEventListener('click', toggleMenu);
+  refs.closeMenuBtn.forEach(element => {
+    element.addEventListener('click', toggleMenu);
+  });
 
   //   //* Закривання по кліку на бекдроп
 
