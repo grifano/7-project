@@ -1,5 +1,5 @@
 .section-reviews {
-  margin-bottom: 40px;
+  padding-bottom: 40px;
 }
 .reviews-title {
   font-weight: 500;
@@ -62,7 +62,7 @@
 
 @media screen and (min-width: 768px) {
   .section-reviews {
-    margin-bottom: 75px;
+    padding-bottom: 75px;
   }
   .reviews-title {
     font-size: 48px;
