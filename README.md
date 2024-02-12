@@ -4,7 +4,7 @@
 
 - Mentor: Daria Lyman
 - Team Lead: Serhii Orlenko
-- Scram Master: Vlad
+- Scram Master: Vlad Halytskyi
 - Developers:
   - Anastasiia Velieva
   - Andrii Chuchak
