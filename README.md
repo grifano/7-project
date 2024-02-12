@@ -10,6 +10,7 @@
   - Andrii Chuchak
   - Andrii Thorenko
   - Anton Yashchenko
+  - Igor Krasin
   - Oksana Fedorii
 
 ## Latest Project: YachtJet
