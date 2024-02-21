@@ -15,6 +15,7 @@
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "@splidejs/splide": "^4.1.4",
     "animate.css": "^4.1.1",
     "normalize.css": "^8.0.1",
     "vite-plugin-full-reload": "^1.0.5",
