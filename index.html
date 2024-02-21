@@ -13,7 +13,8 @@
 
     <title>YachtJet</title>
     <script type="module" crossorigin src="/7-project/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/7-project/assets/index-29ec0299.css">
+    <link rel="modulepreload" crossorigin href="/7-project/assets/vendor-688b6f4b.js">
+    <link rel="stylesheet" href="/7-project/assets/index-b6f33750.css">
   </head>
   <body>
     <header class="header">
@@ -234,153 +235,160 @@
   </div>
 </section>
 
-      <section id="section-our-yachts" class="section section-our-yachts">
+      <section
+  id="section-our-yachts"
+  class="section section-our-yachts splide"
+  aria-label="yacht info carousel"
+>
   <div class="container">
     <h2 class="our-yachts-title">
       Choose your dream yacht and sail away into the sunset
     </h2>
-    <ul class="our-yachts-list">
-      <li class="our-yachts-item">
-        <picture>
-          <source
-            srcset="/7-project/assets/yaht-desk1-1x-55977eed.webp 1x, /7-project/assets/yaht-desk1-1x-55977eed.webp 2x"
-            media="(min-width: 1280px)"
-          />
-          <source
-            srcset="/7-project/assets/yaht-tab1-1x-9c14871d.webp 1x, /7-project/assets/yaht-tab1-2x-b1f1abcb.webp 2x"
-            media="(min-width: 780px)"
-          />
-          <source
-            srcset="/7-project/assets/yaht-mob-1x-8ae2b6f0.webp 1x, /7-project/assets/yaht-mob-2x-5ee216c6.webp 2x"
-            media="(min-width: 320px)"
-          />
-          <img
-            src="/7-project/assets/yaht-mob-1x-8ae2b6f0.webp"
-            alt="yacht1"
-            width="302"
-            height="240"
-          />
-        </picture>
-        <div class="our-yachts-item-content">
-          <div class="our-yachts-features">
-            <h3 class="our-yachts-features-title">Arrow</h3>
-            <p class="our-yachts-features-p">LUXURY YAHTS</p>
+    <div class="splide__track">
+      <ul class="our-yachts-list splide__list">
+        <li class="our-yachts-item splide__slide">
+          <picture>
+            <source
+              srcset="/7-project/assets/yaht-desk1-1x-55977eed.webp 1x, /7-project/assets/yaht-desk1-1x-55977eed.webp 2x"
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="/7-project/assets/yaht-tab1-1x-9c14871d.webp 1x, /7-project/assets/yaht-tab1-2x-b1f1abcb.webp 2x"
+              media="(min-width: 780px)"
+            />
+            <source
+              srcset="/7-project/assets/yaht-mob-1x-8ae2b6f0.webp 1x, /7-project/assets/yaht-mob-2x-5ee216c6.webp 2x"
+              media="(min-width: 320px)"
+            />
+            <img
+              src="/7-project/assets/yaht-mob-1x-8ae2b6f0.webp"
+              alt="yacht1"
+              width="302"
+              height="240"
+            />
+          </picture>
+          <div class="our-yachts-item-content">
+            <div class="our-yachts-features">
+              <h3 class="our-yachts-features-title">Arrow</h3>
+              <p class="our-yachts-features-p">LUXURY YAHTS</p>
+            </div>
+            <div class="our-yachts-line-horozontal"></div>
+            <ul class="our-yachts-price-list">
+              <li class="our-yachts-price-item">
+                <p class="our-yachts-options-title">LENGTH</p>
+                <p class="our-yachts-options-p">48m(155ft)</p>
+              </li>
+              <li class="our-yachts-price-item">
+                <p class="our-yachts-options-title">BUILDER</p>
+                <p class="our-yachts-options-p">Admiral</p>
+              </li>
+              <li class="our-yachts-price-item">
+                <p class="our-yachts-options-title">BUILT</p>
+                <p class="our-yachts-options-p">2021</p>
+              </li>
+              <li class="our-yachts-price-item">
+                <p class="our-yachts-options-title">GUESTS</p>
+                <p class="our-yachts-options-p">11 in 5 cabins</p>
+              </li>
+              <li class="our-yachts-price-item">
+                <p class="our-yachts-options-title">PRICE</p>
+                <p class="our-yachts-options-p">€33,500,000</p>
+              </li>
+            </ul>
           </div>
-          <div class="our-yachts-line-horozontal"></div>
-          <ul class="our-yachts-price-list">
-            <li class="our-yachts-price-item">
-              <p class="our-yachts-options-title">LENGTH</p>
-              <p class="our-yachts-options-p">48m(155ft)</p>
-            </li>
-            <li class="our-yachts-price-item">
-              <p class="our-yachts-options-title">BUILDER</p>
-              <p class="our-yachts-options-p">Admiral</p>
-            </li>
-            <li class="our-yachts-price-item">
-              <p class="our-yachts-options-title">BUILT</p>
-              <p class="our-yachts-options-p">2021</p>
-            </li>
-            <li class="our-yachts-price-item">
-              <p class="our-yachts-options-title">GUESTS</p>
-              <p class="our-yachts-options-p">11 in 5 cabins</p>
-            </li>
-            <li class="our-yachts-price-item">
-              <p class="our-yachts-options-title">PRICE</p>
-              <p class="our-yachts-options-p">€33,500,000</p>
-            </li>
-          </ul>
-        </div>
-      </li>
-      <li class="our-yachts-item">
-        <picture>
-          <source
-            srcset="/7-project/assets/yaht-desk2-1x-49a2a6ad.webp 1x, /7-project/assets/yaht-desk2-2x-dfde6ec0.webp 2x"
-            media="(min-width: 1280px)"
-          />
-          <source
-            srcset="/7-project/assets/yaht-tab2-1x-8ba68617.webp 1x, /7-project/assets/yaht-tab2-2x-f81b1f57.webp 2x"
-            media="(min-width: 780px)"
-          />
-          <img
-            src="/7-project/assets/yaht-tab2-1x-8ba68617.webp"
-            alt="yacht2"
-            width="302"
-            height="240"
-          />
-        </picture>
-        <div class="our-yachts-item-content">
-          <div class="our-yachts-features">
-            <h3 class="our-yachts-features-title">BENETTI OASIS 40M BO122</h3>
-            <p class="our-yachts-features-p">LUXURY YAHTS</p>
+        </li>
+        <li class="our-yachts-item splide__slide">
+          <picture>
+            <source
+              srcset="/7-project/assets/yaht-desk2-1x-49a2a6ad.webp 1x, /7-project/assets/yaht-desk2-2x-dfde6ec0.webp 2x"
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="/7-project/assets/yaht-tab2-1x-8ba68617.webp 1x, /7-project/assets/yaht-tab2-2x-f81b1f57.webp 2x"
+              media="(min-width: 780px)"
+            />
+            <img
+              src="/7-project/assets/yaht-tab2-1x-8ba68617.webp"
+              alt="yacht2"
+              width="302"
+              height="240"
+            />
+          </picture>
+          <div class="our-yachts-item-content">
+            <div class="our-yachts-features">
+              <h3 class="our-yachts-features-title">BENETTI OASIS 40M BO122</h3>
+              <p class="our-yachts-features-p">LUXURY YAHTS</p>
+            </div>
+            <div class="our-yachts-line-horozontal"></div>
+            <ul class="our-yachts-price-list">
+              <li class="our-yachts-price-item">
+                <p class="our-yachts-options-title">LENGTH</p>
+                <p class="our-yachts-options-p">41m (133ft)</p>
+              </li>
+              <li class="our-yachts-price-item">
+                <p class="our-yachts-options-title">SHIPYARD</p>
+                <p class="our-yachts-options-p">Benetti</p>
+              </li>
+              <li class="our-yachts-price-item">
+                <p class="our-yachts-options-title">BUILT</p>
+                <p class="our-yachts-options-p">2025</p>
+              </li>
+              <li class="our-yachts-price-item">
+                <p class="our-yachts-options-title">GUESTS</p>
+                <p class="our-yachts-options-p">10 in 5 cabins</p>
+              </li>
+              <li class="our-yachts-price-item">
+                <p class="our-yachts-options-title">PRICE</p>
+                <p class="our-yachts-options-p">€23,210,000</p>
+              </li>
+            </ul>
           </div>
-          <div class="our-yachts-line-horozontal"></div>
-          <ul class="our-yachts-price-list">
-            <li class="our-yachts-price-item">
-              <p class="our-yachts-options-title">LENGTH</p>
-              <p class="our-yachts-options-p">41m (133ft)</p>
-            </li>
-            <li class="our-yachts-price-item">
-              <p class="our-yachts-options-title">SHIPYARD</p>
-              <p class="our-yachts-options-p">Benetti</p>
-            </li>
-            <li class="our-yachts-price-item">
-              <p class="our-yachts-options-title">BUILT</p>
-              <p class="our-yachts-options-p">2025</p>
-            </li>
-            <li class="our-yachts-price-item">
-              <p class="our-yachts-options-title">GUESTS</p>
-              <p class="our-yachts-options-p">10 in 5 cabins</p>
-            </li>
-            <li class="our-yachts-price-item">
-              <p class="our-yachts-options-title">PRICE</p>
-              <p class="our-yachts-options-p">€23,210,000</p>
-            </li>
-          </ul>
-        </div>
-      </li>
-      <li class="our-yachts-item">
-        <picture>
-          <source
-            srcset="/7-project/assets/yaht-desk3-1x-a8f073ba.webp 1x, /7-project/assets/yaht-desk3-2x-650caf38.webp 2x"
-          />
-          <img
-            src="/7-project/assets/yaht-desk3-1x-a8f073ba.webp"
-            alt="yacht3"
-            width="302"
-            height="240"
-          />
-        </picture>
-        <div class="our-yachts-item-content">
-          <div class="our-yachts-features">
-            <h3 class="our-yachts-features-title">BELLE ANNA</h3>
-            <p class="our-yachts-features-p">LUXURY YAHTS</p>
+        </li>
+        <li class="our-yachts-item splide__slide">
+          <picture>
+            <source
+              srcset="/7-project/assets/yaht-desk3-1x-a8f073ba.webp 1x, /7-project/assets/yaht-desk3-2x-650caf38.webp 2x"
+            />
+            <img
+              src="/7-project/assets/yaht-desk3-1x-a8f073ba.webp"
+              alt="yacht3"
+              width="302"
+              height="240"
+            />
+          </picture>
+          <div class="our-yachts-item-content">
+            <div class="our-yachts-features">
+              <h3 class="our-yachts-features-title">BELLE ANNA</h3>
+              <p class="our-yachts-features-p">LUXURY YAHTS</p>
+            </div>
+            <div class="our-yachts-line-horozontal"></div>
+            <ul class="our-yachts-price-list">
+              <li class="our-yachts-price-item">
+                <p class="our-yachts-options-title">LENGTH</p>
+                <p class="our-yachts-options-p">50m(155ft)</p>
+              </li>
+              <li class="our-yachts-price-item">
+                <p class="our-yachts-options-title">SHIPYARD</p>
+                <p class="our-yachts-options-p">ISA</p>
+              </li>
+              <li class="our-yachts-price-item">
+                <p class="our-yachts-options-title">BUILT</p>
+                <p class="our-yachts-options-p">2012</p>
+              </li>
+              <li class="our-yachts-price-item">
+                <p class="our-yachts-options-title">GUESTS</p>
+                <p class="our-yachts-options-p">12 in 6 cabins</p>
+              </li>
+              <li class="our-yachts-price-item">
+                <p class="our-yachts-options-title">PRICE</p>
+                <p class="our-yachts-options-p">€21,000,000</p>
+              </li>
+            </ul>
           </div>
-          <div class="our-yachts-line-horozontal"></div>
-          <ul class="our-yachts-price-list">
-            <li class="our-yachts-price-item">
-              <p class="our-yachts-options-title">LENGTH</p>
-              <p class="our-yachts-options-p">50m(155ft)</p>
-            </li>
-            <li class="our-yachts-price-item">
-              <p class="our-yachts-options-title">SHIPYARD</p>
-              <p class="our-yachts-options-p">ISA</p>
-            </li>
-            <li class="our-yachts-price-item">
-              <p class="our-yachts-options-title">BUILT</p>
-              <p class="our-yachts-options-p">2012</p>
-            </li>
-            <li class="our-yachts-price-item">
-              <p class="our-yachts-options-title">GUESTS</p>
-              <p class="our-yachts-options-p">12 in 6 cabins</p>
-            </li>
-            <li class="our-yachts-price-item">
-              <p class="our-yachts-options-title">PRICE</p>
-              <p class="our-yachts-options-p">€21,000,000</p>
-            </li>
-          </ul>
-        </div>
-      </li>
-    </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="splide__pagination"></div>
     <div class="our-yacht-button-wrap">
       <a href="#section-rent" class="button is-secondary">Yacht rental</a>
     </div>
