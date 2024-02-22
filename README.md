@@ -15,4 +15,6 @@
 
 ## Latest Project: YachtJet
 
+[🔗 Design Mockup in Figma](https://www.figma.com/file/jRIYQopKXrN9adYQy22ygf/YachtJet?type=design&node-id=8101-272&mode=design&t=PQba5xm7EXm6ooq2-0)
+
 ![](/src/img/project-cover.webp)
