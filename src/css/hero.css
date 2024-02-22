@@ -47,8 +47,12 @@
   max-width: 335px;
   margin: 0 auto;
   margin-bottom: 24px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
-
+.word {
+  transform: translateY(400%);
+  transition: transform 0.5s;
+}
 .hero-small-text {
   font-weight: 300;
   font-size: 12px;

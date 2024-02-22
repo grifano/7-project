@@ -16,8 +16,9 @@
   "license": "ISC",
   "dependencies": {
     "@splidejs/splide": "^4.1.4",
-    "animate.css": "^4.1.1",
+    "gsap": "^3.12.5",
     "normalize.css": "^8.0.1",
+    "split-type": "^0.3.4",
     "vite-plugin-full-reload": "^1.0.5",
     "vite-plugin-html-inject": "^1.0.1"
   }
